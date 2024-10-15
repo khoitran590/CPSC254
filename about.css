@@ -1,0 +1,47 @@
+body {
+    background: linear-gradient(90deg, #C6EDC9, #0EC699);
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.content {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.resume-container {
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0EC699;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+button:hover {
+    background-color: #0ba67a;
+}
